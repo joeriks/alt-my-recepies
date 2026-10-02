@@ -1,0 +1,17 @@
+---
+name: list_tasks
+label: List tasks
+triggers:
+  - menu: Memory bank/What tasks are registered
+outputs: [show]
+---
+function run({ out }) {
+  out.show(
+    'Tasks registered in the system',
+    [
+      '• Important matters (Viktiga ärenden)',
+      '• Private calendar (Privat kalender)',
+      '• Work calendar (Jobbkalender)'
+    ].join('\n')
+  );
+}
