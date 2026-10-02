@@ -1,9 +1,3 @@
 label: Privat kalender
-role: timeline
+type: datumpost
 encrypted: true
-title: titel
-fields:
-  datum:      { date, required }
-  tid:        { time }
-  titel:      { text, required }
-  anteckning: { longtext }

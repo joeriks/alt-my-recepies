@@ -1,0 +1,9 @@
+# Delad struktur för allt som har ett datum. Samlingar med type: datumpost
+# får de här fälten och får lägga till egna, men inte ändra dessa.
+role: timeline
+title: titel
+fields:
+  datum:      { date, required }
+  tid:        { time }
+  titel:      { text, required }
+  anteckning: { longtext }

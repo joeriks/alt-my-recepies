@@ -1,0 +1,5 @@
+label: Jobbkalender
+type: datumpost
+encrypted: true
+fields:
+  projekt: { text }
