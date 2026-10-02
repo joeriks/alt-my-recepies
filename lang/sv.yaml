@@ -19,3 +19,7 @@ collections:
     label: Jobbkalender
     fields:
       project: Projekt
+  important_matters:
+    label: Viktiga ärenden
+    fields:
+      done: Klart

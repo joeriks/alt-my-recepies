@@ -1,0 +1,6 @@
+label: Important matters
+type: dated_entry
+encrypted: true
+role: timeline
+fields:
+  done: { bool, label: Done }
