@@ -1,0 +1,9 @@
+# Underområden till ett ansvarsområde. Varje underområde kopplar till sitt
+# ansvarsområde med parent, och visas under det med "+ lägg till".
+label: Sub-areas
+encrypted: false
+title: title
+fields:
+  title: { text, required, label: Title }
+  description: { longtext, label: Description }
+  parent: { link: responsibilities, required, label: Area }

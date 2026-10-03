@@ -34,11 +34,10 @@ collections:
       done: Klart
   responsibilities:
     label: Ansvarsområden
-    fields:
-      under_areas: Underområden
   under_areas:
     label: Underområden
     fields:
+      title: Titel
       parent: Ansvarsområde
       type: Typ
       description: Beskrivning
