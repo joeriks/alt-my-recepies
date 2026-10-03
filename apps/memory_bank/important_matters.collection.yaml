@@ -1,6 +1,6 @@
 label: Important matters
 type: dated_entry
-encrypted: true
+encrypted: false
 role: timeline
 fields:
   done: { bool, label: Done }
