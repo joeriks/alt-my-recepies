@@ -2,7 +2,7 @@
 name: hej
 label: Hej
 triggers:
-  - menu: Spike/Hej
+  - menu: Experiment/Hej
   - every: 15m
 outputs: [show]
 ---
