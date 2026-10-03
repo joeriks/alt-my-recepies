@@ -11,6 +11,10 @@ types:
       time: Tid
       title: Titel
       note: Anteckning
+  responsibilities:
+    fields:
+      header: Rubrik
+      description: Kort beskrivning
 
 collections:
   private_calendar:
@@ -23,3 +27,5 @@ collections:
     label: Viktiga ärenden
     fields:
       done: Klart
+  responsibilities:
+    label: Ansvarsområden

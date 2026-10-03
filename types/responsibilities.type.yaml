@@ -1,0 +1,5 @@
+role: list
+title: header
+fields:
+  header: { text, required, label: Header }
+  description: { text, label: Description }
