@@ -45,3 +45,9 @@ collections:
     label: Ansvarsloggar
     fields:
       responsibility: Ansvarsområde
+
+reports:
+  responsibilities:
+    label: Ansvarsområden
+  coming:
+    label: Kommande 30 dagar
