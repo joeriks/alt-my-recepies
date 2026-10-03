@@ -3,4 +3,4 @@ type: responsibilities
 encrypted: false
 title: header
 fields:
-  under_areas: { link: under_areas, label: Underareas }
+  under_areas: { longtext, label: Underareas }
