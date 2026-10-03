@@ -15,6 +15,11 @@ types:
     fields:
       header: Rubrik
       description: Kort beskrivning
+  under_area:
+    fields:
+      title: Titel
+      description: Beskrivning
+      parent: Ansvarsområde
 
 collections:
   private_calendar:
@@ -29,3 +34,12 @@ collections:
       done: Klart
   responsibilities:
     label: Ansvarsområden
+    fields:
+      under_areas: Underområden
+  under_areas:
+    label: Underområden
+    fields:
+      parent: Ansvarsområde
+      title: Titel
+      description: Beskrivning
+

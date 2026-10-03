@@ -2,4 +2,5 @@ label: Ansvarsområden
 type: responsibilities
 encrypted: false
 title: header
-fields: {}
+fields:
+  under_areas: { link: under_areas, label: Underareas }
