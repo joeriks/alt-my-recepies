@@ -1,0 +1,6 @@
+label: Responsibility logs
+type: dated_entry
+encrypted: false
+role: timeline
+fields:
+  responsibility: { link: responsibilities, required, label: Responsibility }

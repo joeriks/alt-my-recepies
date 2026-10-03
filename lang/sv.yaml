@@ -17,7 +17,7 @@ types:
       description: Kort beskrivning
   under_area:
     fields:
-      title: Titel
+      type: Typ
       description: Beskrivning
       parent: Ansvarsområde
 
@@ -40,6 +40,9 @@ collections:
     label: Underområden
     fields:
       parent: Ansvarsområde
-      title: Titel
+      type: Typ
       description: Beskrivning
-
+  responsibility_logs:
+    label: Ansvarsloggar
+    fields:
+      responsibility: Ansvarsområde
